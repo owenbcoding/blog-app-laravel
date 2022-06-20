@@ -13,10 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('index');
+// });
+
 Route::get('/', function () {
-    return view('index');
+    return view('posts');
 });
 
-Route::get ('post/{post}', function ($slug) { 
-    return view('post',["slug" => $slug]);
+Route::get('post/', function () {
+    return view('post');
 });
+
+//<a href="/posts/1/2/3">First Post etc</a>
+// Route::get ('post/{post}', function ($slug) { 
+//     return view('post',["slug" => $slug]);
+// });

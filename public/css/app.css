@@ -491,6 +491,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 .-mt-px {
   margin-top: -1px;
 }
+.mb-20 {
+  margin-bottom: 5rem;
+}
+.mt-5 {
+  margin-top: 1.25rem;
+}
+.ml-20 {
+  margin-left: 5rem;
+}
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
 .flex {
   display: flex;
 }
@@ -512,6 +524,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-16 {
   height: 4rem;
 }
+.h-40 {
+  height: 10rem;
+}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -526,6 +541,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-auto {
   width: auto;
+}
+.w-1\/2 {
+  width: 50%;
 }
 .max-w-full {
   max-width: 100%;
@@ -563,27 +581,48 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-t {
   border-top-width: 1px;
 }
+.border-t-4 {
+  border-top-width: 4px;
+}
+.border-b-4 {
+  border-bottom-width: 4px;
+}
 .border-gray-200 {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
-.bg-gray-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 .p-4 {
   padding: 1rem;
 }
 .p-6 {
   padding: 1.5rem;
+}
+.p-3 {
+  padding: 0.75rem;
 }
 .py-4 {
   padding-top: 1rem;
@@ -596,11 +635,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pt-8 {
   padding-top: 2rem;
 }
+.pt-10 {
+  padding-top: 2.5rem;
+}
+.pt-20 {
+  padding-top: 5rem;
+}
 .text-center {
   text-align: center;
-}
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -616,6 +658,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .text-lg {
   font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 .font-bold {
