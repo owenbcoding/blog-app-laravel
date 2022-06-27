@@ -21,9 +21,10 @@ Route::get('/', function () {
     return view('posts');
 });
 
-Route::get('post/', function () {
+Route::get('post', function () {
     return view('post');
 });
+
 
 //<a href="/posts/1/2/3">First Post etc</a>
 // Route::get ('post/{post}', function ($slug) { 
